@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.london.gov.uk/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/data-london-gov-uk-domain-security.yml
   - type: Website
     url: https://data.london.gov.uk
   - type: Documentation
@@ -53,6 +55,8 @@ common:
     url: finops/data-london-gov-uk-finops.yml
   - type: Review
     url: review.yml
+  - url: https://data.london.gov.uk/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
