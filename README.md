@@ -1,4 +1,4 @@
-# London Datastore (data-london-gov-uk)
+# London Datastore
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-London Datastore is a open data portal open-data portal for GB running **CKAN**, exposing a standardized catalog API over ~an open datasets.
+London Datastore is a open data portal open-data portal for GB running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/data-london-gov-uk/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Government Data · Open Data Portal · GB
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=data-london-gov-uk-api-evangelist&utm_content=repo)
+## London Datastore on APIs.io
 
-## Type
-- **kind:** government  ·  **software:** CKAN  ·  **version:** datapress
+Everything profiled for London Datastore is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/data-london-gov-uk/](https://apis.io/providers/data-london-gov-uk/)** — or go straight to one of the APIs or properties below.
 
-## API
-- **London Datastore CKAN Action API** — base `https://data.london.gov.uk/api/3/action`. [Docs](https://docs.ckan.org/en/latest/api/) · [Portal](https://data.london.gov.uk)
-- Live endpoint verified: `https://data.london.gov.uk/api/3/action/status_show`
+### APIs (1)
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/data-london-gov-uk-plans-pricing.yml) — Free / open public data API.
-- [RateLimits](rate-limits/data-london-gov-uk-rate-limits.yml) — No published limit; harvest politely.
-- [FinOps](finops/data-london-gov-uk-finops.yml) — Public open data; no usage-based billing.
+- [London Datastore CKAN Action API](https://apis.io/apis/data-london-gov-uk/catalog/) — CKAN Action API for London Datastore, a consistent JSON-over-HTTP interface over a catalog of an open datasets. Standard actions include package_search,…
 
-## Timestamps
-- **Created:** 2026-06-04
-- **Modified:** 2026-06-04
+### Published properties
 
-## Maintainers
-**FN:** Kin Lane
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Email:** kin@apievangelist.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Data London Gov Uk Domain Security](https://apis.io/security/data-london-gov-uk/data-london-gov-uk-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Data London Gov Uk Plans Pricing](https://apis.io/plans/data-london-gov-uk/data-london-gov-uk-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Data London Gov Uk Rate Limits](https://apis.io/rate-limits/data-london-gov-uk/data-london-gov-uk-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Data London Gov Uk Finops](https://apis.io/finops/data-london-gov-uk/data-london-gov-uk-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://data.london.gov.uk)
+- [Documentation](https://docs.ckan.org/en/latest/api/)
+- [Blog](https://data.london.gov.uk/feed/)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/data-london-gov-uk/](https://apis.io/providers/data-london-gov-uk/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for London Datastore: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/data-london-gov-uk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
